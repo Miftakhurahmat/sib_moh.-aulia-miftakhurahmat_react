@@ -23,7 +23,11 @@ btnClear.addEventListener('click', () => {
 var btnDel = document.getElementById('del');
 btnDel.addEventListener('click', () => {
 	{
-		if(input.textContent){
+		if(input.textContent === "0" || input.textContent <= 9){
+			input.textContent = "0";
+			newExpressionFlag = true
+		}
+		else if(input.textContent){
 			input.textContent = input.textContent.slice(0,-1);
 			newExpressionFlag = false;
 			lastOperator = true;
