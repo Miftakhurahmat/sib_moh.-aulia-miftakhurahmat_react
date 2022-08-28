@@ -1,0 +1,13 @@
+variabel > let, var, const
+var adalah variabel yang paling lama
+sedangkan let lebih baru
+
+
+instalasi nodemon
+1. npm init -y
+2. install nodemon -g > global // -d > local
+3. untuk running nodemon > di powershell ngga bisa
+4. running menggunakan cmd
+	- nodemon > global
+	- npm run start > kita tambahkan script runnning
+	ex script : "start": "nodemon indexx.js" > package.js
