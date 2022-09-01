@@ -1,0 +1,13 @@
+{
+  "name": "4-method-super",
+  "version": "1.0.0",
+  "main": "Super.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Super.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
