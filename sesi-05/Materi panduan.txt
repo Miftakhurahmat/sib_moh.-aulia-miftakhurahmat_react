@@ -1,0 +1,14 @@
+step 1 :
+jika kita belum menginstall react, maka harus install terlebih dengan cara
+> create-react-app hello-state
+
+step 2 :
+custom dulu aplikasi rect bawaannya
+-definisikan data flow
+-components/
+	-Users.js > default data (setstate/getstate)
+	-UsersState.js > event button > setdata
+
+	//ini untuk halaman 8.
+	//mempelajari tentang setUsername berada di line 11 s.d 15
+	>> dijadikan 1 <<
