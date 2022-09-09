@@ -8,11 +8,7 @@ export default class Logo extends Component {
 
 	render (){
 		return(
-			<div className="flex-none">
-				<NavLink className="btn btn-ghost normal-case text-xl text-white" to='/'>{this.props.name}</NavLink>
-			</div>
+			<NavLink className="btn btn-ghost normal-case text-xl p-2" to='/'>{this.props.name}</NavLink>
 		)
-		
-		
 	}
 }

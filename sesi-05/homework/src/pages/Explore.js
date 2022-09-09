@@ -8,7 +8,7 @@ const Explore = () => {
 					<h2 className="card-title">Explore</h2>
 					<p>Anda sedang berada di halaman Explore</p>
 					<div className="card-actions justify-end">
-					<button className="btn">OKEE...</button>
+					<button className="btn btn-outline">OKE</button>
 					</div>
 				</div>
 			</div>

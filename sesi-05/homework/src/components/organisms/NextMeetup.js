@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import { Message } from "../atoms/Message";
 import SubTitle from "../atoms/SubTitle";
+import PropTypes from 'prop-types';
 
 export default class  NextMeetup extends Component {
 	constructor () {
@@ -17,7 +18,13 @@ export default class  NextMeetup extends Component {
 				.....\n\n
 				See you there!\n\n
 				Best, Hengki, Giovanni, Sofian, Riza, Agung The JakartaJs Organizers`	
-		};	
+		};
+		NextMeetup.propTypes = {
+			subtitle: PropTypes.string,
+			letterTitle: PropTypes.string,
+			date: PropTypes.string,
+			text: PropTypes.string,
+		}
 	}
 
 	render(){

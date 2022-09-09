@@ -2,6 +2,7 @@ import React from "react";
 import ButtonJoin from "../atoms/ButtonJoin";
 import DescMeetup from "../atoms/DescMeetup";
 import Title from "../atoms/Title";
+import PropTypes from 'prop-types';
 
 export default class MeetupNow extends React.Component {
 	constructor(){
@@ -9,9 +10,15 @@ export default class MeetupNow extends React.Component {
 		this.state = {
 			title: 'Hacktiv8 Meetup',
 			location: 'Jakarta, Indonesia',
-			members: '1,078',
+			members: 1078,
 			organizers: 'Adhy Wiranata'
 		};
+		MeetupNow.propTypes = {
+			title: PropTypes.string,
+			location: PropTypes.string,
+			members: PropTypes.number,
+			organizers: PropTypes.string,
+		}
 	}
 	render() {
 		return (

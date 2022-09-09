@@ -1,6 +1,7 @@
 import React from "react";
 import SubTitle from "../atoms/SubTitle";
 import Cards from "../molecules/Cards";
+import PropTypes from 'prop-types';
 
 export default class MeetupNow extends React.Component {
 	constructor(){
@@ -8,6 +9,9 @@ export default class MeetupNow extends React.Component {
 		this.state = {
 			subtitle: `Past Meetups`,
 		};
+		MeetupNow.propTypes = {
+			subtitle: PropTypes.string,
+		}
 	}
 	render() {
 		return (

@@ -1,13 +1,18 @@
 import React from "react";
 import Copyrigtht from "../atoms/Copyright";
+import PropTypes from 'prop-types';
 
-export default class MeetupNow extends React.Component {
+export default class Footer extends React.Component {
 	constructor(){
 		super()
 		this.state = {
 			name: `Hacktiv8`,
-			year: `2018`,
+			year: 2018,
 		};
+		Footer.propTypes = {
+			name: PropTypes.string,
+			year: PropTypes.number,
+		}
 	}
 	render() {
 		return (
