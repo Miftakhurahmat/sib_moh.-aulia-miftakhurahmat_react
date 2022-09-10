@@ -1,1 +1,9 @@
-yt : https://www.youtube.com/watch?v=JbEtJAETwJU
+Currency Rates App meupakan sebuah aplikasi untuk koversi mata uang dari USD ke mata uang lain diantaranya :
+1. CAD
+2. IDR
+3. JPY
+4. CHF
+5. UER
+6. GBP
+
+kita dapat menggunakan inputan untuk mengubah nilai dari USD

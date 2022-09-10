@@ -11,6 +11,7 @@ function App(props) {
 	const getCurrency = async () => {
 		setLoading(true)
 		try {
+			// untuk mengambil data dari API
 			let response = await axios.get(`https://api.currencyfreaks.com/latest?apikey=7853f4e1f6094bf492a3213a6ee5e381`)
 			setBase(response.data.base);
 			setCurrencies([
@@ -56,6 +57,7 @@ function App(props) {
 		<div className='py-5 flex'>
 			<div className='container mx-auto'>
 				<h1 className='md:text-4xl text-center'>Display Currency Rates</h1>
+				{/* Awal Component Input */}
 				<div className="form-control pb-10">
 					<label className="label">
 						<span className="label-text">Enter amount</span>
@@ -65,8 +67,11 @@ function App(props) {
 						<span>{base}</span>
 					</label>
 				</div>
+				{/* Akhir Component Input */}
 				{
+					// loading merupakan fungsi yang dijalankan ketika data dari API masih dalam perjalanan
 					loading ? <div>Loading .... </div> :
+					// AWal Component Tabel
 					<div className='overflow-x-auto'>
 						<table className='table table-zebra w-full'>
 							<thead>
@@ -97,6 +102,7 @@ function App(props) {
 							</tbody>
 						</table>
 					</div>
+					// akhir component tabel
 				}
 			</div>
 		</div>
