@@ -1,0 +1,1 @@
+Statefull Component artinya sebuah komponen atau app akan menyimpan informasi terkait komponen tersebut dan juga dapat mengubah informasi tersebut.

@@ -1,0 +1,11 @@
+useState adalah sebuah fungsi yang mengembalikan sebuah nilai stateful, dan sebuah fungsi untuk memperbaruinya.
+Selama render awal, state yang dikembalikan (state) sama dengan nilai yang telah dioper pada argumen pertama (initialState).
+cara inisialisasinya :
+
+const [state, setState] = useState(initialState);
+
+
+kemudian untuk menerima sebuah nilai state yang baru dan meminta sebuah render ulang pada komponen tersebut. kita bisa menggunakan fungsi setState.
+cara inisialisasinya :
+
+setState(newState);

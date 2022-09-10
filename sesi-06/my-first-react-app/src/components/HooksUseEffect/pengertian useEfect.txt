@@ -1,0 +1,3 @@
+Kita membutuhkan useEffect untuk bisa “memantau” perubahan yang terjadi dan melakukan aksi sesuai dengan kebutuhan kitaAtau dengan kata lain, useEffect membuat kita dapat melakukan “efek samping” di dalam functional component.Stateful & Stateless Component - Sesi 6Introduction
+
+Pengambilan data, pengaturan berlangganan (subscription) , dan perubahan manual DOM di dalam komponen React adalah beberapa contoh dari efek samping.
