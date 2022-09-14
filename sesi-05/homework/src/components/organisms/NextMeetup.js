@@ -10,7 +10,7 @@ export default class  NextMeetup extends Component {
 				subtitle: 'Next Meetup',
 				letterTitle: 'Awesome meetup and event',
 				date: '25 January 2019',
-				text: `Hello, JavaScript & Node.js Ninjas! 
+				text: `Hello, JavaScript & Node.js Ninjas!\n
 				Get ready for our montly meetup JakartaJs! This will be our fifth meetup of 2018! \n
 				The meetup format will contain some short stories and technical talks. \n
 				If you have a short announscement you'd like to share with the audience, you may do so during open miv announcements.\n\n
