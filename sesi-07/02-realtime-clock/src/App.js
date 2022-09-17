@@ -1,37 +1,14 @@
 import React from 'react'
-import './App.css'
+import RealtimeClockClass from './Components/RealtimeClockClass'
+import RealtimeClockFunc from './Components/RealtimeClockFunc'
 
-class App extends React.Component {
-	constructor(){
-		super()
-		this.state = {
-			date: new Date()
-		}
-	}
-
-	tick(){
-		this.setState({
-			date: new Date()
-		})
-	}
-
-	componentDidMount(){
-		this.timerID = setInterval(() => this.tick(), 1000)
-	}
-
-	componentWillUnmount() {
-		clearInterval(this.timerID)
-	}
-
-	render() {
-		return (
-			<div className='App'>
-				<h1>Realtime CLOCK</h1>
-				<hr />
-				<h1>{this.state.date.toLocaleTimeString()}</h1>
-			</div>
-		)
-	}
+const App = (props) => {
+	return (
+		<div>
+			<RealtimeClockClass />
+			<RealtimeClockFunc />
+		</div>
+	)
 }
 
 export default App

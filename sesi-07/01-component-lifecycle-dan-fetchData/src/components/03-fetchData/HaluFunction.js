@@ -6,7 +6,7 @@ export default function HaluFunction() {
 	useEffect (() =>{
 		fetch('https://jsonplaceholder.typicode.com/todos')
 			.then((response) => response.json())
-			.then((data) => this.state({ todos: data.slice(0, 20) }))  //untuk memfilter data sebanyak 20
+			.then((data) => setTodos(data.slice(0, 20))) //untuk memfilter data sebanyak 20
 	})
 	
 	return (

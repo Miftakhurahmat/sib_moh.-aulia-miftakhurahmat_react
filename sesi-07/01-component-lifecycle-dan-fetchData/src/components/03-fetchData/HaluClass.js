@@ -4,17 +4,16 @@ export default class HaluClass extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			count: 0,
-			users: []
+			todos: []
 		};
 	}
 
 	componentDidMount(){
 		fetch('https://jsonplaceholder.typicode.com/todos')
 			.then((response) => response.json())
-			.then((data) => this.state({ todos: data.slice(0, 20) })) //untuk memfilter data sebanyak 20
+			.then((data) => this.setState({ todos: data.slice(0, 20) })) //untuk memfilter data sebanyak 20
 	}
-		
+	
 	render() {
 		return (
 			<div>

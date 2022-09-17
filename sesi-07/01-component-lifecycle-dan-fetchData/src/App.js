@@ -1,6 +1,8 @@
 import Clock from "./components/01-classComponent/01-mounting/Clock";
-import Halu from "./components/01-classComponent/02-updating/Halu";
 import ErrorBoundary from "./components/01-classComponent/04-errorHandling/ErrorBoundary";
+import HaluClass from "./components/03-fetchData/HaluClass";
+import Example from "./components/02-functionComponent/Example"
+import HaluFunction from "./components/03-fetchData/HaluFunction";
 
 function App() {
 	
@@ -12,8 +14,14 @@ function App() {
 				<Clock/>
 				<hr />
 
-				{/* this Halu */}
-				<Halu />
+				{/* this Halu merupakan fetch data menggunakan class komponen*/}
+				<HaluClass />
+
+				{/* Fetch data merupakan fetch data menggunakan fungsional komponen*/}
+				<HaluFunction />
+
+				{/* this example memuat usestate dan use effect dalam fungsional komponen */}
+				<Example />
 
 				{/* this error Boundary */}
 				<ErrorBoundary>
