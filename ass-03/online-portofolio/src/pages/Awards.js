@@ -19,7 +19,7 @@ const Awards = () => {
 					},
 					{
 						award: 'Sertification',
-						caption: 'Junior Network Administrator JNA',
+						caption: 'Junior Network Administrator BPPTIK',
 						imageLink: './img/sertifications/junior-network-administrator.png',
 					},
 				]

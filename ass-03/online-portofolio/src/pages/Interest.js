@@ -46,15 +46,15 @@ const Interest = () => {
 				I love what I do. I take great pride in what I do.
 				</p>
 			</div>
-			<div class="container mx-auto px-2 sm:flex sm:flex-wrap sm:gap-4 sm:justify-evenly bg-base-100 shadow-xl rounded-2xl">
+			<div className="container mx-auto px-2 sm:flex sm:flex-wrap sm:gap-4 sm:justify-evenly bg-base-100 shadow-xl rounded-2xl">
 				{
 					getInterest.map((interest, i) => (
 						<div key={i} className="sm:mb-0 sm:w-64 md:w-80 lg:w-96">
-							<figure class="px-10 pt-10">
-								<img src={interest.imageLink} alt="Shoes" class="rounded-xl" />
+							<figure className="px-10 pt-10">
+								<img src={interest.imageLink} alt="Shoes" className="rounded-xl" />
 							</figure>
-							<div class="card-body items-center text-center">
-								<h2 class="card-title">{interest.interest}</h2>
+							<div className="card-body items-center text-center">
+								<h2 className="card-title">{interest.interest}</h2>
 								<p>{interest.caption}</p>
 							</div>
 						</div>
