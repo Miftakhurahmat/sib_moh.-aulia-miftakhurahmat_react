@@ -1,0 +1,13 @@
+redux adalah sebuah controller untuk memonitoring management state yang kita buat. sebagai getter atau setter memanagement modelnya. 
+redux sangat direkomendasikan untuk digunakan karena memiliki komunitas yang cukup banyak dan luas sehingga dokumentasinya jelas.
+
+cara menginstall redux
+> npm i redux react-redux
+
+yang dibutuhkan ketika menggunakan redux antara lain :
+1. Redux
+2. initial state
+3. reducer
+4. create store
+5. subscribe
+6. dispatch
