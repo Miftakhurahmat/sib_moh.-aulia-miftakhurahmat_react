@@ -1,4 +1,5 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AuthLoginForm from "./features/auth/AuthLoginForm";
 
 function App() {
