@@ -1,0 +1,27 @@
+cara create next js
+
+create auto next js
+----------
+npx create-next-app my-app --use-npm (default)
+npx create-next-app --ts my-nextjs-app (--ts adalah pperintah untuk menambahkan typescript)
+npm run dev (untuk menjalankannya)
+
+note, jika terjadi warning code di index.js / head
+----------
+create file .babelrc dan tambahkan kode berikut
+{
+	"presets": ["next/babel"],
+	"plugins": []
+}
+dan di .eslintrc.json, replace code yang ada dengan 
+{
+	"extends": ["next/babel", "next/core-web-vitals]
+}
+
+create manual next js
+----------
+mkdir my-app-manual
+npm install next react react-dom
+npm run build
+
+
