@@ -1,5 +1,13 @@
-import HelloListview from "./components/HelloListview";
+import { NavigationContainer } from "@react-navigation/native";
+import React from "react";
+import Router from "./router";
 
-export default function App() {
-    return <HelloListview />;
-}
+const App = () => {
+    return (
+        <NavigationContainer>
+            <Router />
+        </NavigationContainer>
+    );
+};
+
+export default App;
